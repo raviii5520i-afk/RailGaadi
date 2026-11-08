@@ -30,10 +30,10 @@ export function SearchResults({
         <div className="px-4 py-8 text-center">
           <Search className="w-8 h-8 text-[#D1D5DB] mx-auto mb-3" aria-hidden="true" />
           <p className="text-sm font-medium text-[#6B7280]">
-            No trains found for "{query}"
+            No trains found for &quot;{query}&quot;
           </p>
           <p className="text-xs text-[#9CA3AF] mt-1">
-            Try a train number like 12951 or a name like "Rajdhani"
+            Try a train number like 12951 or a name like &quot;Rajdhani&quot;
           </p>
         </div>
       ) : (

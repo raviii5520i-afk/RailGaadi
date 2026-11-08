@@ -12,7 +12,7 @@ export default function NotFound() {
           Page not found
         </h2>
         <p className="text-sm text-[#9CA3AF] mb-6">
-          This page doesn't exist. Try searching for a train to get started.
+          This page doesn&apos;t exist. Try searching for a train to get started.
         </p>
         <Link
           href="/"

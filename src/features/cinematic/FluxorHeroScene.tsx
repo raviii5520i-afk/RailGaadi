@@ -595,7 +595,7 @@ function HeroStationAutocomplete({
         <div className="absolute left-0 right-0 top-full mt-1 z-50 bg-[#071A3D] border border-white/20 rounded-xl shadow-2xl overflow-hidden max-h-56 overflow-y-auto animate-[fade-in_0.15s_ease-out]">
           {results.length === 0 ? (
             <div className="px-4 py-3 text-center text-xs text-[#94A3B8]">
-              No stations found matching "{query}"
+              No stations found matching &quot;{query}&quot;
             </div>
           ) : (
             <ul>

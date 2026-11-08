@@ -122,7 +122,7 @@ export function StationAutocomplete({
         <div className="absolute left-0 right-0 top-full mt-1 z-40 bg-white rounded-md border border-[#E5E7EB] shadow-modal overflow-hidden max-h-60 overflow-y-auto">
           {results.length === 0 ? (
             <div className="px-4 py-3 text-center text-xs text-[#9CA3AF]">
-              No stations found matching "{query}"
+              No stations found matching &quot;{query}&quot;
             </div>
           ) : (
             <ul role="listbox">

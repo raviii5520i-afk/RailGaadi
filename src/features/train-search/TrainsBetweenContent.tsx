@@ -61,7 +61,7 @@ export function TrainsBetweenContent({
         <AlertCircle className="w-10 h-10 text-amber-500 mx-auto mb-3" />
         <h2 className="text-lg font-bold text-[#111318] mb-1">No direct trains found</h2>
         <p className="text-xs text-[#9CA3AF] mb-6">
-          We couldn't find direct trains between {fromCode} and {toCode}. Try checking station codes or dates.
+          We couldn&apos;t find direct trains between {fromCode} and {toCode}. Try checking station codes or dates.
         </p>
         <Link
           href="/"
